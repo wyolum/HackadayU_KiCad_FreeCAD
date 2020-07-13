@@ -251,13 +251,13 @@ Wire Wire Line
 Wire Wire Line
 	2750 3700 3000 3700
 Text Label 3000 3200 2    50   ~ 0
-A0
+PB0
 Text Label 3000 3300 2    50   ~ 0
-A1
+PB1
 Text Label 3000 3400 2    50   ~ 0
-A2
+PB2
 Text Label 3000 3700 2    50   ~ 0
-A3
+PB5
 $Comp
 L tiny_blinky:Conn_02x03_Odd_Even J2
 U 1 1 5EF93671
@@ -282,13 +282,13 @@ Wire Wire Line
 Wire Wire Line
 	4250 6675 3975 6675
 Text Label 3200 6475 0    50   ~ 0
-ADR1
+PGM1
 Text Label 3200 6575 0    50   ~ 0
-ADR2
+PGM2
 Text Label 3200 6675 0    50   ~ 0
-ADR3
+PGM5
 Text Label 4250 6575 2    50   ~ 0
-ADR0
+PGM0
 Text Label 4250 6675 2    50   ~ 0
 GND
 $Sheet
@@ -327,111 +327,135 @@ Connection ~ 3100 6200
 Wire Bus Line
 	3100 6200 4350 6200
 Wire Notes Line
-	2900 5900 4600 5900
+	2650 5900 4600 5900
 Wire Notes Line
 	4600 5900 4600 6900
 Wire Notes Line
-	4600 6900 2900 6900
+	4600 6900 2650 6900
 Wire Notes Line
-	2900 6900 2900 5900
+	2650 6900 2650 5900
 Text Notes 4175 5975 2    50   ~ 10
 SPI PROGRAM HEADER
 Text Label 4250 6475 2    50   ~ 0
 5V
 Wire Bus Line
 	4350 6475 4350 6200
-Text Label 3100 3100 0    50   ~ 0
-A[0..3]
-Text Label 4350 6200 2    50   ~ 0
-ADR[0..3]
+Text Label 3100 3925 2    50   ~ 0
+PB[0..5]
+Text Label 3100 6100 2    50   ~ 0
+PGM[0..5]
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F070680
+P 7075 5350
+F 0 "H1" H 7200 5400 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7200 5325 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7075 5350 50  0001 C CNN
+F 3 "~" H 7075 5350 50  0001 C CNN
+	1    7075 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5F070B68
+P 7075 5450
+F 0 "#PWR04" H 7075 5200 50  0001 C CNN
+F 1 "GND" H 7125 5250 50  0000 C CNN
+F 2 "" H 7075 5450 50  0001 C CNN
+F 3 "" H 7075 5450 50  0001 C CNN
+	1    7075 5450
+	1    0    0    -1  
+$EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
-U 1 1 5EFED2BD
-P 6975 5775
-F 0 "H2" H 7100 5800 50  0000 L CNN
-F 1 "MountingHole_Pad" H 7100 5775 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6975 5775 50  0001 C CNN
-F 3 "~" H 6975 5775 50  0001 C CNN
-	1    6975 5775
+U 1 1 5F070F04
+P 7450 5350
+F 0 "H2" H 7575 5400 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7575 5325 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7450 5350 50  0001 C CNN
+F 3 "~" H 7450 5350 50  0001 C CNN
+	1    7450 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5F070F0E
+P 7450 5450
+F 0 "#PWR05" H 7450 5200 50  0001 C CNN
+F 1 "GND" H 7500 5250 50  0000 C CNN
+F 2 "" H 7450 5450 50  0001 C CNN
+F 3 "" H 7450 5450 50  0001 C CNN
+	1    7450 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
-U 1 1 5EFED427
-P 7475 5775
-F 0 "H3" H 7600 5800 50  0000 L CNN
-F 1 "MountingHole_Pad" H 7600 5775 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7475 5775 50  0001 C CNN
-F 3 "~" H 7475 5775 50  0001 C CNN
-	1    7475 5775
+U 1 1 5F072039
+P 7825 5350
+F 0 "H3" H 7950 5400 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7950 5325 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7825 5350 50  0001 C CNN
+F 3 "~" H 7825 5350 50  0001 C CNN
+	1    7825 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5F072043
+P 7825 5450
+F 0 "#PWR06" H 7825 5200 50  0001 C CNN
+F 1 "GND" H 7875 5250 50  0000 C CNN
+F 2 "" H 7825 5450 50  0001 C CNN
+F 3 "" H 7825 5450 50  0001 C CNN
+	1    7825 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
-U 1 1 5EFED77D
-P 7975 5775
-F 0 "H4" H 8100 5800 50  0000 L CNN
-F 1 "MountingHole_Pad" H 8100 5775 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7975 5775 50  0001 C CNN
-F 3 "~" H 7975 5775 50  0001 C CNN
-	1    7975 5775
+U 1 1 5F07204D
+P 8200 5350
+F 0 "H4" H 8325 5400 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8325 5325 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8200 5350 50  0001 C CNN
+F 3 "~" H 8200 5350 50  0001 C CNN
+	1    8200 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H5
-U 1 1 5EFEDA5C
-P 8475 5775
-F 0 "H5" H 8600 5800 50  0000 L CNN
-F 1 "MountingHole_Pad" H 8600 5775 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8475 5775 50  0001 C CNN
-F 3 "~" H 8475 5775 50  0001 C CNN
-	1    8475 5775
+L power:GND #PWR07
+U 1 1 5F072057
+P 8200 5450
+F 0 "#PWR07" H 8200 5200 50  0001 C CNN
+F 1 "GND" H 8250 5250 50  0000 C CNN
+F 2 "" H 8200 5450 50  0001 C CNN
+F 3 "" H 8200 5450 50  0001 C CNN
+	1    8200 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6975 5875 6975 6100
-Wire Wire Line
-	6975 6100 7475 6100
-Wire Wire Line
-	8475 6100 8475 5875
-Wire Wire Line
-	7975 5875 7975 6100
-Connection ~ 7975 6100
-Wire Wire Line
-	7975 6100 8475 6100
-Wire Wire Line
-	7475 5875 7475 6100
-Connection ~ 7475 6100
-Wire Wire Line
-	7475 6100 7975 6100
-Text Label 6975 6100 0    50   ~ 0
-GND
-Text Notes 6975 5525 0    50   ~ 10
-MECH AND VIRTUAL PARTS
+$Comp
+L tiny_blinky:LOGO_hackaday G2
+U 1 1 5F0752BD
+P 10175 6725
+F 0 "G2" H 10175 7075 60  0001 C CNN
+F 1 "LOGO_hackaday" H 10175 6950 60  0001 C CNN
+F 2 "tiny_blinky:logo_hackaday" H 10175 6725 50  0001 C CNN
+F 3 "" H 10175 6725 50  0001 C CNN
+	1    10175 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L tiny_blinky:LOGO_skull G1
+U 1 1 5F075902
+P 10750 6075
+F 0 "G1" H 10750 5761 60  0001 C CNN
+F 1 "LOGO_skull" H 10750 6389 60  0001 C CNN
+F 2 "tiny_blinky:logo_skull" H 10750 6075 50  0001 C CNN
+F 3 "" H 10750 6075 50  0001 C CNN
+	1    10750 6075
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	3100 6200 3100 6575
 Wire Bus Line
 	3100 3100 3100 6200
-$Comp
-L tiny_blinky:LOGO_hackaday G2
-U 1 1 5EFF6A43
-P 10750 7050
-F 0 "G2" H 10750 7022 60  0001 C CNN
-F 1 "LOGO_hackaday" H 10750 7078 60  0001 C CNN
-F 2 "tiny_blinky_v1:hackaday" H 10750 7050 50  0001 C CNN
-F 3 "" H 10750 7050 50  0001 C CNN
-	1    10750 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L tiny_blinky:LOGO_skull_n_wrenches G1
-U 1 1 5EFF8990
-P 10950 6800
-F 0 "G1" H 10950 6664 60  0001 C CNN
-F 1 "LOGO_skull_n_wrenches" H 10950 6936 60  0001 C CNN
-F 2 "tiny_blinky_v1:skull_n_wrenches" H 10950 6800 50  0001 C CNN
-F 3 "" H 10950 6800 50  0001 C CNN
-	1    10950 6800
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

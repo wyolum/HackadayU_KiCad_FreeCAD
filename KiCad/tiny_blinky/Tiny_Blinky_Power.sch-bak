@@ -19,7 +19,7 @@ U 1 1 5EF98160
 P 2525 3325
 F 0 "J3" H 2650 3550 50  0000 C CNN
 F 1 "Vin" H 2650 3450 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2525 3325 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 2525 3325 50  0001 C CNN
 F 3 "~" H 2525 3325 50  0001 C CNN
 	1    2525 3325
 	1    0    0    -1  
@@ -63,7 +63,7 @@ U 1 1 5EF9A868
 P 6000 3375
 F 0 "J4" H 6050 3400 50  0000 L CNN
 F 1 "5V" H 6050 3300 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6000 3375 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6000 3375 50  0001 C CNN
 F 3 "~" H 6000 3375 50  0001 C CNN
 	1    6000 3375
 	1    0    0    -1  

@@ -1,4 +1,4 @@
-update=Sat Jul  4 17:53:48 2020
+update=Thu Jul  9 17:28:51 2020
 version=1
 last_client=kicad
 [general]
@@ -12,10 +12,20 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=tiny_blinky.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -50,7 +60,7 @@ CopperTextThickness=0.254
 CopperTextItalic=0
 CopperTextUpright=1
 EdgeCutLineWidth=0.0508
-CourtyardLineWidth=0.0508
+CourtyardLineWidth=0.05
 OthersLineWidth=0.14732
 OthersTextSizeV=1.016
 OthersTextSizeH=1.016
@@ -240,7 +250,7 @@ dPairWidth=0.2032
 dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=15 MIL
+Name=15mil
 Clearance=0.2032
 TrackWidth=0.381
 ViaDiameter=0.8128
@@ -251,7 +261,7 @@ dPairWidth=0.2032
 dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
-Name=20 MIL
+Name=20mil
 Clearance=0.2032
 TrackWidth=0.508
 ViaDiameter=0.8128
@@ -261,13 +271,3 @@ uViaDrill=0.1016
 dPairWidth=0.2032
 dPairGap=0.254
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
