@@ -21,6 +21,7 @@ Hackaday.io Project https://hackaday.io/project/172360-introduction-to-kicad-and
 
 ![header image](/images/project_header_image.png)
 
+![render](/KiCad/tiny_blinky/RENDERS/tiny_blinky_05.png)
 
 
 License
