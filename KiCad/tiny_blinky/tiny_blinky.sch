@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "TINY_BLINKY"
 Date "2020-06-27"
 Rev "v1"
@@ -19,21 +19,10 @@ U 1 1 5EF786CF
 P 2150 3500
 F 0 "U1" H 1750 4075 50  0000 R CNN
 F 1 "ATtiny85-20PU" V 1725 3800 50  0000 R CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 2150 3500 50  0001 C CIN
+F 2 "tiny_blinky:DIP-8_W7.62mm" H 2150 3500 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 2150 3500 50  0001 C CNN
 	1    2150 3500
 	1    0    0    -1  
-$EndComp
-$Comp
-L tiny_blinky:SW_Push SW1
-U 1 1 5EF7BBA3
-P 3550 2575
-F 0 "SW1" V 3475 2725 50  0000 L CNN
-F 1 "SW" V 3575 2725 50  0000 L CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 3550 2775 50  0001 C CNN
-F 3 "~" H 3550 2775 50  0001 C CNN
-	1    3550 2575
-	0    1    1    0   
 $EndComp
 $Comp
 L tiny_blinky:R R2
@@ -41,7 +30,7 @@ U 1 1 5EF7D93E
 P 3550 4250
 F 0 "R2" V 3550 4200 50  0000 L CNN
 F 1 "10k" V 3650 4225 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3480 4250 50  0001 C CNN
+F 2 "tiny_blinky:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3480 4250 50  0001 C CNN
 F 3 "~" H 3550 4250 50  0001 C CNN
 	1    3550 4250
 	1    0    0    -1  
@@ -52,7 +41,7 @@ U 1 1 5EF7DAFE
 P 4300 3600
 F 0 "R1" V 4300 3600 50  0000 C CNN
 F 1 "330E" V 4350 3800 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4230 3600 50  0001 C CNN
+F 2 "tiny_blinky:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4230 3600 50  0001 C CNN
 F 3 "~" H 4300 3600 50  0001 C CNN
 	1    4300 3600
 	0    1    1    0   
@@ -134,7 +123,7 @@ U 1 1 5EF82A25
 P 6025 3600
 F 0 "D1" H 6150 3850 50  0000 L CNN
 F 1 "WS2812B" H 6250 3775 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6075 3300 50  0001 L TNN
+F 2 "tiny_blinky:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6075 3300 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6125 3225 50  0001 L TNN
 	1    6025 3600
 	1    0    0    -1  
@@ -145,7 +134,7 @@ U 1 1 5EF83D10
 P 7525 3600
 F 0 "D2" H 7650 3850 50  0000 L CNN
 F 1 "WS2812B" H 7750 3775 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7575 3300 50  0001 L TNN
+F 2 "tiny_blinky:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7575 3300 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7625 3225 50  0001 L TNN
 	1    7525 3600
 	1    0    0    -1  
@@ -156,7 +145,7 @@ U 1 1 5EF85216
 P 9025 3600
 F 0 "D3" H 9150 3850 50  0000 L CNN
 F 1 "WS2812B" H 9250 3775 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9075 3300 50  0001 L TNN
+F 2 "tiny_blinky:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9075 3300 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9125 3225 50  0001 L TNN
 	1    9025 3600
 	1    0    0    -1  
@@ -215,7 +204,7 @@ U 1 1 5EF8AA1E
 P 10250 3600
 F 0 "J1" H 10300 3650 50  0000 L CNN
 F 1 "Dout" H 10300 3550 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 10250 3600 50  0001 C CNN
+F 2 "tiny_blinky:PinSocket_1x03_P2.54mm_Vertical" H 10250 3600 50  0001 C CNN
 F 3 "~" H 10250 3600 50  0001 C CNN
 	1    10250 3600
 	1    0    0    -1  
@@ -264,7 +253,7 @@ U 1 1 5EF93671
 P 3675 6575
 F 0 "J2" H 3725 6850 50  0000 C CNN
 F 1 "SPI" H 3725 6775 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3675 6575 50  0001 C CNN
+F 2 "tiny_blinky:PinHeader_2x03_P2.54mm_Vertical" H 3675 6575 50  0001 C CNN
 F 3 "~" H 3675 6575 50  0001 C CNN
 	1    3675 6575
 	1    0    0    -1  
@@ -350,7 +339,7 @@ U 1 1 5F070680
 P 7075 5350
 F 0 "H1" H 7200 5400 50  0000 L CNN
 F 1 "MountingHole_Pad" H 7200 5325 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7075 5350 50  0001 C CNN
+F 2 "tiny_blinky:MountingHole_3.2mm_M3_Pad_Via" H 7075 5350 50  0001 C CNN
 F 3 "~" H 7075 5350 50  0001 C CNN
 	1    7075 5350
 	1    0    0    -1  
@@ -372,7 +361,7 @@ U 1 1 5F070F04
 P 7450 5350
 F 0 "H2" H 7575 5400 50  0000 L CNN
 F 1 "MountingHole_Pad" H 7575 5325 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7450 5350 50  0001 C CNN
+F 2 "tiny_blinky:MountingHole_3.2mm_M3_Pad_Via" H 7450 5350 50  0001 C CNN
 F 3 "~" H 7450 5350 50  0001 C CNN
 	1    7450 5350
 	1    0    0    -1  
@@ -394,7 +383,7 @@ U 1 1 5F072039
 P 7825 5350
 F 0 "H3" H 7950 5400 50  0000 L CNN
 F 1 "MountingHole_Pad" H 7950 5325 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7825 5350 50  0001 C CNN
+F 2 "tiny_blinky:MountingHole_3.2mm_M3_Pad_Via" H 7825 5350 50  0001 C CNN
 F 3 "~" H 7825 5350 50  0001 C CNN
 	1    7825 5350
 	1    0    0    -1  
@@ -416,7 +405,7 @@ U 1 1 5F07204D
 P 8200 5350
 F 0 "H4" H 8325 5400 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8325 5325 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8200 5350 50  0001 C CNN
+F 2 "tiny_blinky:MountingHole_3.2mm_M3_Pad_Via" H 8200 5350 50  0001 C CNN
 F 3 "~" H 8200 5350 50  0001 C CNN
 	1    8200 5350
 	1    0    0    -1  
@@ -453,6 +442,23 @@ F 2 "tiny_blinky:logo_skull" H 10750 6075 50  0001 C CNN
 F 3 "" H 10750 6075 50  0001 C CNN
 	1    10750 6075
 	1    0    0    -1  
+$EndComp
+$Sheet
+S 9550 1025 1275 950 
+U 5F10C232
+F0 "routing" 50
+F1 "routing.sch" 50
+$EndSheet
+$Comp
+L tiny_blinky:SW_Push SW1
+U 1 1 5F1CB5ED
+P 3550 2575
+F 0 "SW1" V 3475 2800 50  0000 L CNN
+F 1 "SW" V 3575 2800 50  0000 L CNN
+F 2 "tiny_blinky:SW_PUSH_6mm_H5mm" H 3550 2775 50  0001 C CNN
+F 3 "" H 3550 2775 50  0001 C CNN
+	1    3550 2575
+	0    1    1    0   
 $EndComp
 Wire Bus Line
 	3100 6200 3100 6575

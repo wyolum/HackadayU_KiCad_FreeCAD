@@ -1,0 +1,11 @@
+### Module positions - created on Thu Jul 30 22:17:37 2020 ###
+### Printed by Pcbnew version kicad 5.1.6-c6e7f7d~87~ubuntu20.04.1
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val        Package                                  PosX       PosY       Rot  Side
+BT1       2xCR2032   BatteryHolder_Keystone_3024-2x2032    12.1920    20.3200   90.0000  top
+D1        WS2812B    LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm    60.9600    28.4480    0.0000  top
+D2        WS2812B    LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm    60.9600    20.3200    0.0000  top
+D3        WS2812B    LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm    60.9600    12.1920    0.0000  top
+U2        AP1117-50  SOT-223-3_TabPin2                     40.6400     9.6520  270.0000  top
+## End

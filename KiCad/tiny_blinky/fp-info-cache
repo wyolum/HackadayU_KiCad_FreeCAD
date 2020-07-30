@@ -1,4 +1,4 @@
-17852986527257367
+17873720269367367
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -80148,6 +80148,97 @@ Varistor, diameter 21.5mm, width 11.4mm, pitch 10mm
 varistor SIOV
 0
 2
+2
+tiny_blinky
+BatteryHolder_Keystone_3002_1x2032
+https://www.tme.eu/it/Document/a823211ec201a9e209042d155fe22d2b/KEYS2996.pdf
+BR2016 CR2016 DL2016 BR2020 CL2020 BR2025 CR2025 DL2025 DR2032 CR2032 DL2032
+0
+3
+2
+tiny_blinky
+BatteryHolder_Keystone_3024-2x2032
+https://www.tme.eu/it/Document/a823211ec201a9e209042d155fe22d2b/KEYS2996.pdf
+BR2016 CR2016 DL2016 BR2020 CL2020 BR2025 CR2025 DL2025 DR2032 CR2032 DL2032
+0
+3
+2
+tiny_blinky
+CP_Radial_D8.0mm_P3.50mm
+CP, Radial series, Radial, pin pitch=3.50mm, , diameter=8mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 3.50mm  diameter 8mm Electrolytic Capacitor
+0
+2
+2
+tiny_blinky
+C_Disc_D5.0mm_W2.5mm_P2.50mm
+C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
+C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor
+0
+2
+2
+tiny_blinky
+DIP-8_W7.62mm
+8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+8
+8
+tiny_blinky
+LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel
+0
+4
+4
+tiny_blinky
+MountingHole_3.2mm_M3_Pad_Via
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+9
+1
+tiny_blinky
+PinHeader_2x03_P2.54mm_Vertical
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+tiny_blinky
+PinSocket_1x02_P2.54mm_Vertical
+Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x02 2.54mm single row
+0
+2
+2
+tiny_blinky
+PinSocket_1x03_P2.54mm_Vertical
+Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x03 2.54mm single row
+0
+3
+3
+tiny_blinky
+R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
+0
+2
+2
+tiny_blinky
+SOT-223-3_TabPin2
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+3
+tiny_blinky
+SW_PUSH_6mm_H5mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=5mm
+tact sw push 6mm
+0
+4
 2
 tiny_blinky
 logo_hackaday
