@@ -23,6 +23,12 @@ Hackaday.io Project https://hackaday.io/project/172360-introduction-to-kicad-and
 
 ![render](/KiCad/tiny_blinky/RENDERS/tiny_blinky_05.png)
 
+## youtube
+ * course 1: https://www.youtube.com/watch?v=ignWMyRbPYM
+ * course 2: https://www.youtube.com/watch?v=JeOZMAFZbqI
+ * course 3: https://www.youtube.com/watch?v=cOB0TuuFBug
+ * course 4: https://www.youtube.com/watch?v=lbnrUtgFFCc
+
 
 License
 -------
